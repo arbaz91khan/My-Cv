@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <title>Your Fancy CV</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      color: #343a40;
+    }
+
+    header {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.5rem;
+    }
+
+    .profile-picture {
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 1rem;
+      border: 4px solid #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-picture img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    section {
+      padding: 2rem;
+      margin-bottom: 2rem;
+      background-color: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #343a40;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li::before {
+      content: "\2022";
+      color: #2E51A2;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+      font-size: 1.5rem;
+    }
+
+    .experience {
+      border-top: 2px solid #2E51A2;
+      padding-top: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .experience p {
+      font-size: 1.25rem;
+      color: #6C757D;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="profile-picture">
+      <img src="https://cdn6.f-cdn.com/contestentries/1451240/31221333/5bfad24d03e59_thumb900.jpg" alt="Your Profile Picture">
+    </div>
+    <h1>Arbaz Khan</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <section>
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email: Arbazkhan@gmail.com</li>
+      <li>Phone: (021) 456-7890</li>
+    
+      <li>GitHub: github.com/arbaz91khan</li>
+    
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>Computer operater</li>
+      <li>CSR</li>
+      <li>customer care</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>matric</strong></li>
+      
+    </ul>
+  </section>
+
+  <section class="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <strong>Web Developer</strong>
+    
+        <ul>
+          <li>self employee</li>
+          <li>sales experience</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+</body>
+</html>
